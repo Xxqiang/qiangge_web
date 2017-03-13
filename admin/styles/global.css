@@ -1,0 +1,110 @@
+img{
+	border:none;
+}
+
+a{
+	color:#00549D;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+.clear:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+
+.clear{
+	zoom:1;
+	clear:both;
+}
+
+
+
+/*��Ʒ���*/
+
+#thumbs{
+	display:block;
+}
+
+#selectFileBtn{
+	width:108px;
+	height:28px;
+	float:left;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/attach.jpeg);
+}
+
+#selectFileBtn:hover{
+	background-position:left -45px;
+}
+
+
+/*�����б�*/
+#attachList{
+	width:510px;
+	padding-top:5px;
+}
+
+/*������ĿԪ��*/
+
+.attachItem{
+	width:300px;
+	height:20px;
+	float:left;
+	padding:5px;
+	margin-right:10px;
+	margin-bottom:5px;
+	background:#E6ECF5;
+}
+
+.attachItem .left{
+	float:left;
+	display:inline;
+}
+
+.attachItem .right{
+	float:right;
+	display:inline;
+}
+
+.attachItem .right a{
+	display:block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/delete.png);
+}
+
+.div1{
+float: left;
+height: 41px;
+background: #f5696c;
+width: 144px;
+position:relative;
+}
+.div2{
+text-align:center;
+padding-top:12px;
+font-size:15px;
+font-weight:800
+}
+.inputstyle{
+    width: 144px;
+    height: 41px;
+    cursor: pointer;
+    font-size: 30px;
+    outline: medium none;
+    position: absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+    left:0px;
+    top: 0px;
+}
